@@ -1,0 +1,56 @@
+body{
+    background-color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.medium_pizza {
+    background-color: lawngreen;
+    border: darkblue solid ;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: 20em;
+    display: inline-block;
+    flex: 2;
+}
+.large_pizza {
+    background-color: brown;
+    border: navy solid ;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: 20em;
+    display: inline-block;
+    flex: 3;
+}
+.small_pizza {
+    background-color: darkmagenta;
+    border: darkblue solid;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: 20em;
+    display: inline-block;
+    flex: 1;
+
+}
+.contact_us {
+    background-color: chocolate;
+    border: darkblue solid ;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    width: 17em;
+    display: inline-block;
+    flex: 1;
+}
+@media ( min-width: 960px) {
+
+    body{
+        background-color: beige;
+    }
+}
